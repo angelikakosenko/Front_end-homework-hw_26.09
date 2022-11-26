@@ -1,0 +1,58 @@
+html,
+body,
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin: 0;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: repeat(4,140px);
+    grid-template-areas:
+    
+    "first second second third"  
+    "first fourth fifth sixth"
+    "first seventh eighth sixth"
+    ;
+    gap: 10px;
+    position: absolute;
+    left: 25%;
+    top:25%;
+
+}
+.item1{
+    grid-area: first;
+    background: green;
+}
+.item2{
+    grid-area: second;
+    background: green;
+}
+.item3{
+    grid-area: third;
+    background: red;
+
+}
+.item4{
+    grid-area: fourth;
+    background: yellow ;
+}
+.item5{
+    grid-area: fifth;
+    background: red;
+}
+.item6{
+    grid-area: sixth;
+    background: green;
+}
+.item7{
+    grid-area: seventh;
+    background: red;
+}
+.item8{
+    grid-area: eighth;
+    background: yellow;
+}
