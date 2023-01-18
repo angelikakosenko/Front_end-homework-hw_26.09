@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background: linear-gradient(180deg, black, transparent);
+}
+.remembText{
+    width: 70%;
+    height: 400px;
+    border: none;
+    background-color: #0a0a0a;
+    border-radius: 20px;
+    padding: 25px;
+    margin-top: 50px;
+    color: #db0694;
+    font-size: 35px;
+    transition: .5s;
+    box-shadow: 3px 6px 21px 12px rgba(117, 3, 45, 0.67);;
+    cursor: text;
+    overflow: none;
+}
